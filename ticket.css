@@ -1,0 +1,97 @@
+body {
+    padding: 30px;
+    background-image: url(./img/ticket.png);
+    background-size: cover ;
+
+    
+}
+
+
+
+
+h1 {
+    margin: 0 auto;
+    margin-bottom: 30px;
+    text-align: center;
+    width: 300px;
+    height: 60px;
+    border: 10px transparent #ffffffa2;
+    background-color: rgba(255, 255, 255, 0.543);
+    padding-top: 17px;
+    padding-bottom: 10px;
+   
+   
+    
+}
+
+article.free-week {
+    background-color: rgba(255, 255, 255, 0.543);
+   
+}
+
+article.with-trainer {
+    background-color: rgba(255, 255, 255, 0.543);
+    
+}
+
+article.no-trainer {
+    background-color: rgba(255, 255, 255, 0.543);
+    
+    
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    
+}
+article{
+    
+    position: relative;
+    
+    box-shadow: 10px 5px 10px 10px rgba(255, 255, 255, 0.543);
+    padding: 19px 17px  ;
+    position: relative;
+  box-sizing: border-box;
+  height: 700px;
+    width: 380px;
+}
+
+main>article>header{
+    text-align: center;
+    color: black;
+font-size: 36px;
+font-family: Haettenschweiler;
+font-weight: 200;
+text-transform: uppercase;
+
+}
+p{
+  
+    color: black;
+font-size: 25px;
+font-family: Montserrat;
+font-weight: 700;
+
+
+}
+
+a{  
+    
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px ;
+    background-color: #797979;
+ 
+    padding: 23px 57px;
+    text-decoration: none;
+    color: black;
+font-size: 32px;
+font-family: Haettenschweiler;
+font-weight: 400;
+
+}
