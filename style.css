@@ -71,8 +71,15 @@ header>ul>li {
     line-height: normal;
     text-transform: uppercase;
     color: white;
+    opacity: 0; /* Початкова прозорість */
+    transform: translateY(20px); /* Початкове положення по вертикалі */
+    transition: opacity 1s, transform 1s; /* Затримка анімації 1 секунда */
+    
 }
-
+.hero.animate h1 {
+    opacity: 1; 
+    transform: translateY(0); 
+}
 .hero>p {
     margin-top: 71px;
     display: inline-block;
@@ -110,9 +117,22 @@ main>a {
     background: #d9d9d9c4;
 
     width: 250px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #161616;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
 
+main a:hover {
 
+    background-color: rgb(59, 59, 59);
+}
 
-    padding: 19px 17px;
-    border-radius: 20px;
+main a   { 
+
+   padding: 19px 17px;
+   border-radius: 20px;
 }
